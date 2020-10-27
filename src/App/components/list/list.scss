@@ -1,7 +1,18 @@
-.studentlist {
+.studentList {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
   .student {
-    width: 12.5%;
+    width: 11%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 5px;
+  }
+
+  .button {
+    width: 11%;
+    height: 30px;
+    margin: 5px;
   }
 }
